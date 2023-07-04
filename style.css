@@ -1,0 +1,31 @@
+h1 {
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.box {
+    width: 75px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 5px 5px 5px black;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    border-radius: 5px;
+    background-color: chartreuse;
+    cursor: pointer;
+    padding: 5px;
+    border-color: white;
+    color: white;
+    align-items: center;
+
+}
