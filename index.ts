@@ -1,7 +1,16 @@
 const board = document.querySelector('.game-container') as HTMLElement
 
+function listenBoard(): void {
+    board.addEventListener('click', () => runGame)
+}
+
 function main(): void {
     createBoard()
+    listenBoard()
+}
+
+function runGame(e: Event): void {
+    console.log("Board clicked")
 }
 
 function createBoard(): void {
